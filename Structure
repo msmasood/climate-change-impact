@@ -1,0 +1,11 @@
+├── data/
+│   ├── noaa_temperature.csv      # Sample NOAA data
+│   └── precipitation.nc          # NetCDF file (subset)
+├── scripts/
+│   ├── data_processing.py        # NetCDF to CSV conversion
+│   ├── sarima_model.ipynb        # Time-series forecasting
+│   └── random_forest_model.py    # Trend prediction
+├── outputs/
+│   ├── temperature_trend.png     # Visualization
+│   └── model_metrics.csv         # Accuracy scores
+└── README.md                     # Project overview & setup
